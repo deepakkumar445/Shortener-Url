@@ -27,4 +27,38 @@ This application allows users to convert long URLs into short links and track ho
 ---
 
 ## Project Structure
+URL_SHORTENER
+│
+├── models
+│ └── shorturl.model.js
+│
+├── views
+│ └── index.ejs
+│
+├── server.js
+└── package.json
+
+
+
+---
+
+## How to Run the Project
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/deepakkumar445/Shortener-Url.git
+cd Shortener-Url
+### 2. Clone the repository
+```bash
+npm install
+### 3. Start MongoDB
+Make sure MongoDB is running on your system.
+
+###4. Start the server
+npm run devrun
+###Open in browser:
+http://localhost:3000
+
+
+
 
